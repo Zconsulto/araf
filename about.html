@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABOUT US</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+    <style>
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*font-family: 'Poppins', sans-serif;*/
+}
+h1, h2, h3, p {
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.8rem;
+    color: #f0ab00; 
+    position: relative;
+    padding-bottom: 10px;
+}
+/* making a line under h1*/
+h1::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 3px;
+    width: 70px;
+    background-color: #f0ab00;
+}
+h2 {
+    font-size: 2.2rem;
+    color: #444;
+    position: relative;
+    padding-left: 40px;
+    margin-top: 40px;
+}
+ /* Creating a star before h2 */
+h2::before {
+    content: '\2605'; /* Unicode for a star */
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    color: #f0ab00;
+}
+h3 {
+    font-size: 1.6rem;
+    color: #555;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    padding-left: 40px;
+}
+p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.8;
+    text-align: justify;
+    word-spacing: 0.5px;
+    padding-left: 40px;
+    border-left: 3px solid #f0ab00;
+    margin-left: 20px;
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.my-5 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+/* blue underline */
+.quick-link {
+    color: #007BFF; 
+    text-decoration: underline;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        
+        <a class="Company's logo" href="home.html">
+            <img src="nexavix_logo.png" alt="Company's Logo" width="100%" height="55">
+        </a>
+        <p style="font-size:larger;font-weight: 600;margin-top: 14px;margin-left: 13px;margin-right: 13px;color: #f0ab00;cursor: pointer;" onclick="window.location.href='home.html'">Nexavix East Coast</p>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item ">
+                    <a class="nav-link" href="home.html" style="margin-left: 7px;margin-right: 7px;font-weight: 400;">HOME</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="about.html" style="margin-left: 7px;margin-right: 7px;font-weight: 400;">ABOUT US</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="services.html" style="margin-left: 7px;margin-right: 7px;font-weight: 400;">OUR SERVICES</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.google.com/forms/about/" style="margin-left: 7px;margin-right: 7px;font-weight: 400;" target="_blank">CONTACT US</a>
+                </li>
+                <!--<li class="nav-item">
+                <a class="nav-link" href="https://dtsuap.divts.com:446/UAP" style="margin-left: 7px;margin-right: 7px;font-weight: 400;" target="_blank">Get a Free Trial</a> 
+                </li> -->
+            </ul>    
+            <button type="button" class="btn btn-warning btn-lg px-4 me-sm-3 ms-auto" fdprocessedid="hy5w2" style="background-color: #f0ab00; color: #000; "  onclick="window.open('https://dtsuap.divts.com:446/UAP')">Request Free Trial</button>
+            <button type="button" class="btn btn-warning btn-lg px-4 me-sm-3" fdprocessedid="hy5w2" style="background-color: #f0ab00; color: #000; "  onclick="window.open('https://www.google.com/forms/about/')">Get a quote</button>
+    </div>
+</nav>
+<!-- Navbar -->
+
+<!-- Body -->
+<div class="container my-5">
+    <h1><i class="fas fa-welcome"></i> Welcome to Nexavix</h1>
+    <p>
+        <img src="Consultants.jpg" alt="Consultants" style="width:100%; height:auto; margin-bottom:20px; border-radius: 10px;">
+        At Nexavix, our dedicated team of professionals is ready to help your business to streamline your operations and improve your warehouse tracking. With an experienced team at your disposal, you can extend your capabilities and deliver an unparalleled service to your clients.
+    </p>
+
+    <h2><i class="fas fa-users"></i> Let Our Experienced Team of Consultants and Developers Assist You</h2>
+    <p>
+        At Nexavix, we're not just another service provider. We're a partner, committed to helping you enhance your service offerings. Whether you're searching for integration support, custom report creation, or day-to-day assistance, our team is ready and able to help you every step of the way.
+    </p>
+
+    <h3><i class="fas fa-globe"></i> OVER 1 MILLION USERS AROUND THE WORLD</h3>
+    <h3><i class="fas fa-cloud"></i> ON-PREMISE OR CLOUD DEPLOYMENT</h3>
+    <h3><i class="fas fa-smile"></i> SUPER EASY SOFTWARE TO USE</h3>
+
+    <h2><i class="fas fa-tools"></i> Allow Our Experienced Team of Consultants and Developers to Help You</h2>
+    <p>
+        Our experienced team of developers is ready to create customized add-ons for your customers, whether they are simple or complex. We ensure thorough testing before release to guarantee optimal performance and reliability. All of this is offered at highly competitive pricing, providing value without compromising on quality.
+    </p>
+
+    <h2><i class="fas fa-challenges"></i> We Understand Your Challenges. We Know Your Biggest Problems.</h2>
+    <p>
+        Navigating the world of SAP Business One can be complex. From recruiting the right consultants to managing integration and support for your clients, the challenges can be significant. That's where we come in. Our team is experienced and knowledgeable, ready to help you overcome these hurdles and excel in your service provision.
+    </p>
+
+    <h3><i class="fas fa-user-check"></i> RECRUITING QUALIFIED PERSONNEL</h3>
+    <p>
+        It can be challenging to find and hire individuals with the necessary SAP Business One skills and experience. Our team of certified consultants is here to augment your capabilities and help you deliver outstanding services.
+    </p>
+
+    <h3><i class="fas fa-exchange-alt"></i> CLIENT INTEGRATION</h3>
+    <p>
+        Integrating SAP Business One with clients' existing software can be a complex process. We specialize in crafting seamless integrations that ensure data consistency and operational efficiency.
+    </p>
+
+    <h3><i class="fas fa-hands-helping""></i> SUPPORTING DIVERSE NEEDS</h3>
+    <p>
+        Each client has unique needs and requirements. Understanding and meeting these needs can be challenging. With our deep knowledge of SAP Business One, we can help you cater to your clients' specific demands.
+    </p>
+
+    <h3><i class="fas fa-book-open"></i> MAINTAINING UPDATED KNOWLEDGE</h3>
+    <p>
+        With continuous updates and changes in SAP Business One, keeping up to date can be difficult. We ensure our team is always at the forefront of the latest SAP Business One developments to provide partners with the most current solutions.
+    </p>
+
+    <h3><i class="fas fa-wallet"></i> MANAGING COSTS</h3>
+    <p>
+        Balancing high-quality service delivery with cost-efficiency is a major challenge. Our competitive pricing helps SAP partners offer quality services while keeping costs in check.
+    </p>
+    <h3><i class="fas fa-link"></i> Quick Links</h3>
+    <p><a class="quick-link" href="https://pf-prod-sapit-partner-prod.cfapps.eu10.hana.ondemand.com/profile/0001701076" style="margin-left: 7px;margin-right: 7px;font-weight: 400;" target="_blank">OUR SAP Partnership</a></p>
+    <p><a class="quick-link" href="https://sapwholesale.com/#PRICING" style="margin-left: 7px;margin-right: 7px;font-weight: 400;" target="_blank">Wholesale Special Subscribtion Model</a></p>
+    
+    
+</div>
+
+
+<!-- Body -->
+
+
+
+
+
+
+
+
+<!-- Footer -->
+<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top" style="background-color: #f0ab00;">
+            
+    <div class="col-md-4 d-flex align-items-center">
+        <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+            <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+        </a>
+        <span class="mb-3 mb-md-0 text-body-secondary">© 2023 Nexavix</span>
+    </div>
+    <div class="col-md-4 d-flex justify-content-end">
+        <!-- Twitter Icon -->
+        <a href="https://twitter.com/nexavix" target="_blank" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+            <svg width="24" height="24" fill="black" viewBox="0 0 24 24">
+                <path d="M22.46 6c-.77.35-1.6.58-2.46.69a4.3 4.3 0 0 0 1.88-2.38 8.53 8.53 0 0 1-2.7 1.04 4.25 4.25 0 0 0-7.24 3.88 12.04 12.04 0 0 1-8.8-4.49 4.25 4.25 0 0 0 1.32 5.67 4.22 4.22 0 0 1-1.93-.53v.05a4.26 4.26 0 0 0 3.44 4.18c-.84.23-1.72.26-2.58.1a4.28 4.28 0 0 0 3.98 2.96 8.56 8.56 0 0 1-5.33 1.85A8.66 8.66 0 0 1 2 18.13a12.07 12.07 0 0 0 6.58 1.94c7.88 0 12.2-6.54 12.2-12.2 0-.19 0-.37 0-.56A8.68 8.68 0 0 0 24 4.59a8.29 8.29 0 0 1-2.38.65 4.16 4.16 0 0 0 1.84-2.3z"></path>
+            </svg>
+        </a>
+        <!-- Facebook Icon -->
+        <a href="https://www.facebook.com/nexavix/" target="_blank" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+            <svg width="24" height="24" fill="black" viewBox="0 0 24 24">
+                <path d="M12 2a10 10 0 0 0-10 10c0 5.23 4.02 9.44 9.19 9.91v-7.02H8.35V12h2.84v-1.8c0-2.81 1.7-4.36 4.24-4.36 1.22 0 2.44.09 2.77.13v3.19h-1.9c-1.5 0-1.92.73-1.92 1.86V12h3.34l-.44 3.42h-2.9V22c5.17-.47 9.19-4.68 9.19-9.91A10 10 0 0 0 12 2z"></path>
+            </svg>
+        </a> 
+            <!-- LinkedIn Icon -->
+<a href="https://www.linkedin.com/company/nexavix/about/" target="_blank" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+<svg width="24" height="24" fill="black" viewBox="0 0 24 24">
+    <path d="M6.5 21.5h-5v-13h5v13zM4 6.5C2.62 6.5 1.5 5.38 1.5 4s1.12-2.5 2.5-2.5S6.5 2.62 6.5 4 5.38 6.5 4 6.5zM21.5 21.5h-5v-7c0-1.38-.56-2.32-1.95-2.32-1.06 0-1.68.71-1.96 1.4-.1.24-.12.56-.12.89v7.03h-5s.07-11.4 0-13h5V9.8c.66-1.02 1.84-2.48 4.48-2.48 3.28 0 5.74 2.16 5.74 6.8v7.4z"></path>
+</svg>
+</a>
+</div>
+    </footer>
+<!-- Footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
