@@ -2,7 +2,7 @@ function sendEmail() {
     const userEmail = document.getElementById("email").value;
     const subject = "Customer wants to Contact US";
 
-    fetch('http://localhost:3000/send-email', {
+    fetch('https://zconsulto.github.io/.herokuapp.com/send-email', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
