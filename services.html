@@ -8,39 +8,32 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header class="p-3 text-bg-dark">
+        <div class="container">
+          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+              <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
+            </a>
     
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        
-        <a class="Company's logo" href="index.html">
-            <img src="nexavix_logo.png" alt="Company's Logo" width="100%" height="55">
-        </a>
-        <p style="font-size:larger;font-weight: 600;margin-top: 14px;margin-left: 13px;margin-right: 13px;color: #f0ab00;cursor: pointer;" onclick="window.location.href='index.html'">Nexavix East Coast</p>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item ">
-                    <a class="nav-link" href="index.html" style="margin-left: 7px;margin-right: 7px;font-weight: 400;">HOME</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="about.html" style="margin-left: 7px;margin-right: 7px;font-weight: 400;">ABOUT US</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="services.html" style="margin-left: 7px;margin-right: 7px;font-weight: 400;">OUR SERVICES</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="https://www.google.com/forms/about/" style="margin-left: 7px;margin-right: 7px;font-weight: 400;" target="_blank">CONTACT US</a>
-                </li>
-                <!--<li class="nav-item">
-                <a class="nav-link" href="https://dtsuap.divts.com:446/UAP" style="margin-left: 7px;margin-right: 7px;font-weight: 400;" target="_blank">Get a Free Trial</a> 
-                </li> -->
-            </ul>    
-            <button type="button" class="btn btn-warning btn-lg px-4 me-sm-3 ms-auto" fdprocessedid="hy5w2" style="background-color: #f0ab00; color: #000; "  onclick="window.open('https://dtsuap.divts.com:446/UAP')">Request Free Trial</button>
-            <button type="button" class="btn btn-warning btn-lg px-4 me-sm-3" fdprocessedid="hy5w2" style="background-color: #f0ab00; color: #000; "  onclick="window.open('https://www.google.com/forms/about/')">Get a quote</button>
-    </div>
-</nav>
+            <ul class="nav col-10 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+              <li><a href="#" class="nav-link px-2 text-white">Home</a></li>
+              <li><a href="#" class="nav-link px-2 text-white">Features</a></li>
+              <li><a href="#" class="nav-link px-2 text-secondary">OUR SERVICES</a></li>
+              <li><a href="#" class="nav-link px-2 text-white">FAQs</a></li>
+              <li><a href="#" class="nav-link px-2 text-white">About</a></li>
+            </ul>
+    
+            <form class="col-10 col-lg-auto mb-2 mb-lg-0 me-lg-4" role="search">
+              <input type="search" class="form-control form-control-dark text-bg-dark" placeholder="Search..." aria-label="Search" spellcheck="false" data-ms-editor="true">
+            </form>
+    
+            <div class="text-end">
+              <button type="button" class="btn btn-outline-light me-2">Login</button>
+              <button type="button" class="btn btn-warning">Sign-up</button>
+            </div>
+          </div>
+        </div>
+      </header>
 <!-- Navbar -->
 <!-- Footer -->
 <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top" style="background-color: #f0ab00;">

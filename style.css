@@ -1,28 +1,42 @@
-.navbar-nav .nav-item:hover .nav-link {
-    color: #f0ab00;
-}
-.navbar-nav .nav-item.active .nav-link {
-    color: black;
-}
-.navbar-nav .nav-item.active:hover .nav-link {
-    color: #ffffff;
-}
-html, body{
+/* Base Styles */
+html, body {
     height: 100vh;
-}
-p:not(.lead.mb-4) {
-    font-size: 1rem;
-    color: #666;
-    line-height: 1.8;
-    text-align: justify;
-    word-spacing: 0.5px;
-    padding-left: 40px;
-    border-left: 3px solid #f0ab00;
-    margin-left: 20px;
-    background-color: #fff;
-    padding: 10px 20px;
-    border-radius: 8px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    font-size: large;
 }
 
+.container-fluid {
+    margin-top: -10px;
+    background-color: hsl(43, 100%, 47%);
+    height: 60px;
+}
+
+.navbar-nav .nav-link {
+    transition: color 0.3s ease, background-color 0.3s ease; /* Smooth color transitions */
+    margin-left: 8px;   /* Add left margin */
+    margin-right: 8px;  /* Add right margin */
+}
+
+/* Hover Effects */
+.navbar-nav .nav-item:hover .nav-link {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.1);  /* Slight background to highlight hovered item */
+    border-radius: 4px;                    /* Rounded edges for the hover background */
+    padding: 5px 10px;                     /* Padding so that the background looks neat */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* A subtle shadow for depth */
+}
+.btn-outline-light:hover{
+    background-color: rgba(0, 0, 0, 0.1);  /* Slight background to highlight hovered item */
+}
+
+/* Active Tab Styles */
+.navbar-nav .nav-item.active .nav-link {
+    color: black;
+    font-weight: 600;                       /* Making active item text bolder */
+    border-bottom: 3px solid hsl(43, 100%, 47%);;       /* Adding a bottom border for added emphasis */
+    padding-bottom: 5px;                    /* Adjust padding for the border */
+}
+
+.space-right {
+    margin-right: 16px; /* Adjust this value as needed */
+}
 
